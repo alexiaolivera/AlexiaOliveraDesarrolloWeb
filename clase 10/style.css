@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+    animation-name:colores;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    
+}
+
+@keyframes crecer {
+    to {        
+        font-size: 200px;
+    }
+}
+h1{
+    font-size: 50px;
+    animation-name: crecer;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+   }
+
+
+@keyframes colores{
+        0% {
+            background-color: red;
+        }
+        16% {
+            background-color: orangered;
+        }
+        32% {
+            background-color: yellow;
+        }
+        64% {
+            background-color: blue;
+        }
+        100% {
+            background-color: purple;
+        }
+}
+@keyframes color{
+    to{
+        background-color: purple;}
+    }
+    
+}
