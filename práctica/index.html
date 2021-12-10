@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Práctica JS</title>
+</head>
+<body>
+    <h1 class="h1">Prácticando JavScript</h1>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="col order-last">
+            <h2 class="h2">Calculadora</h2>
+            <hr class="hr">
+            <form action="">
+                <input type="text" id="uno" placeholder="valor 1" class="label1"> 
+                <input type="text" id="dos" placeholder="valor 2" class="label2">
+                <br>
+                <br class="br">
+                <button type="button" id="btnsuma" class="btn btn-outline-primary btn-lg button">+</button>
+                <button type="button" id="btnresta"class="btn btn-outline-success btn-lg button">-</button>
+                <button type="button" id="btndivision" class="btn btn-outline-warning btn-lg button">/</button>
+                <button type="button" id="btnmultiplicacion"class="btn btn-outline-danger btn-lg button">x</button>
+                <button type="button" id="btnpotencia"class="btn btn-outline-info btn-lg button">^</button>
+                <button type="button" id="btnraiz"class="btn btn-outline-light btn-lg button">√</button>
+                <br>
+                <br>
+                <h3 class=h3>Resultado</h3>
+                <h3 id="resultado" class="resultado"></h3>
+                <h4 class=h4>Historial</h4>
+                    <div id="historial"></div>
+                <hr class=hr>
+                <button type="button" id="btnBorrarHistorial"class="btn btn-outline-danger btn-lg buttonborrar">Borrar</button>
+            </form>
+
+          </div>
+          <div class="col">
+            <h2 class=h2>Más acerca de JS</h2>
+            <hr class="hr">
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"> JavaScript - Mozilla</a>
+            <br>
+            <br>
+            <iframe width="350" height="215" src="https://www.youtube.com/embed/Nrp3c6kNyAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <br>
+            <iframe width="350" height="215" src="https://www.youtube.com/embed/Q9fwkpxr3Dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+          </div>
+          <div class="col order-first">
+            <div class="clearfix">
+                <h2 class=h2>¿Qué es JavaScript?</h2>
+                <hr class=hr>
+                <img src="js1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 image" alt="...">
+              
+                <p>
+                    JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase, más conocido como <u class=u> Lenguaje de scripting</u> (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador. 
+                </p>
+              
+                <p>
+                    JavaScript sirve para <u class=u>añadir características interactivas a tu sitio web</u>, (por ejemplo, juegos, eventos que ocurren cuando los botones son presionados o los datos son introducidos en los formularios, efectos de estilo dinámicos, animación, y mucho más)
+                </p>
+
+                <p>JavaScript fue desarrollado por <u class=u>Brendan Eich</u> de Netscape con el nombre de Mocha, el cual fue renombrado posteriormente a LiveScript y finalmente quedar como JavaScript. </p>
+
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

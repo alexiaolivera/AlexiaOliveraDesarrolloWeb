@@ -1,0 +1,88 @@
+.h1{
+    align-content: center;
+    text-align:center;
+    font-size: 70px;
+    padding: 10px;
+    color: rgb(243, 226, 70);
+}
+h2{
+    color:rgb(243, 226, 70)
+}
+
+h3{
+    color:rgb(243, 226, 70);
+    text-align: right;
+    font-size: 10px;
+
+}
+
+h4{
+    color:rgb(243, 226, 70);
+    text-align: left;
+    font-size: 10px;
+
+}
+hr{
+    color:rgb(243, 226, 70)
+}
+
+br{
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(17, 17, 15);
+    text-align: justify;
+}
+
+.image{
+    width: 150px;
+    float: right;
+    padding: 5px;
+}
+
+strong{
+    color:rgb(243, 226, 70) ;
+}
+u{
+    color:rgb(243, 226, 70) ;
+}
+p{
+    text-indent: 35px;
+    color: rgb(214, 212, 212);
+}
+
+.label1{
+    width: 175px;
+    align-content: left;
+    border-color: darkturquoise;
+    background-color:rgb(17, 17, 15);
+    border-radius: 5px;
+    color:rgb(214, 212, 212);
+}
+.label2{
+    width: 175px;
+    align-content: right;
+    border-color: rgb(246, 180, 255);
+    background-color:rgb(17, 17, 15);
+    border-radius: 5px;
+    color:rgb(214, 212, 212);
+}
+
+button{
+    width: 55px;
+}
+
+.buttonborrar{
+    width: 350px;
+}
+
+.resultado{
+    color: rgb(214, 212, 212);
+    font-size: 30px;
+
+}
+
+.inframe{
+    width: 80px;
+}
